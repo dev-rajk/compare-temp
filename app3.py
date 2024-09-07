@@ -64,7 +64,7 @@ def compare_temp():
 def user_input_features():
     with st.form("new form"):
         with st.sidebar:
-            deviation_C = st.slider('Deviation in degree C from average', -10.0,10.0,0.1)
+            deviation_C = st.slider('Deviation in degree C from average', -10.0,10.0,0.5, 0.1)
             
             submitted = st.form_submit_button("Submit")
             

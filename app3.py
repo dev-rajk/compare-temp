@@ -81,7 +81,7 @@ input_df = user_input_features()
 
 if input_df.empty:
     st.subheader('Prediction Probability')
-    st.write(f"Today's average temperature is {today_temp}\N{DEGREE SIGN}C. How much hotter is today compared to the average of all these past years?")
+    st.write(f"Today's temperature is {today_temp}\N{DEGREE SIGN}C. How much hotter is today compared to the average of all these past years?")
     st.write("Make a guess in the sidebar!!")
 else:
     st.subheader('Prediction Probability')

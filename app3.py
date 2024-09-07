@@ -108,7 +108,7 @@ else:
         st.write( f""":green[Guess you are an old timer !!!] :sunglasses: :sunglasses: """)
         
 
-st.write(f"The following graph shows the variation in daily average temperature for Today ({dates})")
+st.write(f"You can see the variation in daily average temperature for Today ({dates}) over the years in this graph")
 st.line_chart(data=data, 
               x="year", y="Average Temperature (C)", x_label="Year", y_label="Average Temperature (C)", 
                 use_container_width=True)
